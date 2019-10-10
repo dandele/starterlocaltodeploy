@@ -7,7 +7,8 @@
 /* Type */
 
 	html {
-		font-size: 16pt;
+		// font-size: 16pt;
+		font-size: 16px;
 
 		@include breakpoint(xlarge) {
 			font-size: 12pt;
@@ -27,7 +28,7 @@
 		font-family: _font(family);
 		font-weight: _font(weight);
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.618;
 	}
 
 	a {
@@ -55,14 +56,15 @@
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+		margin-bottom: 1.25em;
+		line-height: 1.618;
+		font-size: 1rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
-		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 2.75rem 0 1rem;
 		text-transform: uppercase;
 		letter-spacing: _font(letter-spacing);
 
@@ -72,42 +74,48 @@
 		}
 
 		&.major {
-			border-bottom: solid _size(border-width) _palette(border);
+			border-bottom: solid _size(border-width);
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 (_size(element-margin) * 1) 0;
+			text-align: center;
 		}
 	}
 
 	h1 {
-		font-size: 2.25rem;
-		line-height: 1.3;
+		font-size: 3.052em;
+		line-height: 4.938136‬;
 		letter-spacing: _font(letter-spacing-heading);
+		margin-top: 0;
 	}
 
 	h2 {
-		font-size: 1.5rem;
-		line-height: 1.4;
+		font-size: 2.441em;
+		line-height: 3.949538‬;
 		letter-spacing: _font(letter-spacing-heading);
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.953em;
+		line-height: 3.159954;
 	}
 
 	h4 {
-		font-size: 0.8rem;
+		font-size: 1.563em;
+		line-height: 2.528934;
 	}
 
 	h5 {
-		font-size: 0.7rem;
+		font-size: 1.25em;
+		line-height: 2.0225;
 	}
 
 	h6 {
-		font-size: 0.6rem;
+		font-size: 1em;
+		line-height: 1.618;
 	}
 
 	@include breakpoint(small) {

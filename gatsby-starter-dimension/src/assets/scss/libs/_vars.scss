@@ -1,3 +1,6 @@
+
+
+
 // Misc.
 	$misc: (
 		z-index-base:				10000
@@ -14,15 +17,15 @@
 // Size.
 	$size: (
 		border-radius:				4px,
-		border-width:				1px,
+		border-width:				2px,
 		element-height:				2.75rem,
 		element-margin:				2rem
 	);
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', sans-serif),
-		family-fixed:				('Courier New', monospace),
+		family:						('Nexa'),
+		family-fixed:				('Nexa'),
 		weight:						300,
 		weight-bold:				600,
 		letter-spacing:				0.2rem,
@@ -30,12 +33,19 @@
 	);
 
 // Palette.
+/* 	#222831
+	#393e46
+	#00adb5
+	#eeeeee
+	*/
+
+
 	$palette: (
-		bg:							#1b1f22,
+		bg:							#393e46, //background
 		bg-alt:						#000000,
-		bg-overlay:					rgba(19,21,25,0.5),
-		fg:							#ffffff,
-		fg-bold:					#ffffff,
+		bg-overlay:					/*rgba(19,21,25,0.5), */ #393e46,
+		fg:							#eeeeee,
+		fg-bold:					#00adb5,
 		fg-light:					rgba(255,255,255,0.5),
 		border:						#ffffff,
 		border-bg:					rgba(255,255,255,0.075),

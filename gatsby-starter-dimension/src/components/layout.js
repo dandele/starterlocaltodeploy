@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
@@ -17,7 +18,11 @@ const Layout = ({ children, location }) => {
     )
   } else {
     content = (
-      <div id="wrapper" className="page">
+      <div id="wrapper" className="page"
+      style={{ 
+        padding: '0',
+        margin: '0'
+      }}>
         <div>
           {children}
         </div>
@@ -57,5 +62,6 @@ const Layout = ({ children, location }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
 
 export default Layout

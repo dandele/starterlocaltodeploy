@@ -4,6 +4,39 @@
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Light.woff2') format('woff2'),
+        url('../fonts/Nexa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+        url('../fonts/Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/* Inserisci Gotham (o Poppins) font ma prima devi convertirlo
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+        url('../fonts/Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa-Bold.woff2') format('woff2'),
+        url('../fonts/Nexa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+} */
+
+
 
 /*
 	Dimension by HTML5 UP
